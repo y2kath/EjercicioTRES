@@ -4,13 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EJERCICIO 3</title>
+    <script src="ej3.js"></script>
 </head>
-<body>
-    <header>
-        <h1>EJERCICIO 3</h1>
-    </header>
-    <section>
-        <h2>e</h2>
-    </section>
+
+<body class="cuerpo-ej3">
+    <div class="container">
+        <label for="mt">
+            <h1>
+                Descuento del 15%
+            </h1>
+        </label>
+        <br>
+        <div>
+            <h3>
+                Escriba cual el precio de su compra
+            </h3>
+            <input class="button" 
+            type="text" 
+            id="mt" 
+            name="mt"
+            placeholder="Precio total">
+        <br>
+        </div>
+        <button class="button" 
+        type="button" onclick="descuento()" 
+        id="button" name="button">
+            Calcular
+        </button>
+        <br>
+        <div class="content">
+        <span id="psj"></span>
+        <span id="final"></span>
+    </div>
+    </div>
 </body>
+
 </html>
